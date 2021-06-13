@@ -39,9 +39,7 @@ namespace TestDome
             string inputString = String.Empty;
             Stack<char> stack = new Stack<char>();
 
-            Console.WriteLine("Find all Anagrams of a string (Find all possible combination)");
-            Console.WriteLine("Enter first string");
-
+            Console.WriteLine("Find all Anagrams of a string. Please, enter first string ");
             inputString = Console.ReadLine();
 
             Console.WriteLine();
@@ -50,7 +48,6 @@ namespace TestDome
             getAllAnagrams(inputString, stack, ref node);
 
             Console.WriteLine("All Angrams are:");
-            Console.WriteLine("==========================================");
 
             int i = 0;
             foreach (char[] ch in allAnagramsList)
