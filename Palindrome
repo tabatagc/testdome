@@ -16,7 +16,7 @@ namespace TestDome
             return word.ToLower() == x.ToLower();
         }
 
-        public static void Main001(string[] args)
+        public static void Main(string[] args)
         {
             Console.WriteLine(Palindrome.IsPalindrome("Deleveled"));
             Console.ReadKey();
